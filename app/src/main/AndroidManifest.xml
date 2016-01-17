@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.himanshu.lft_dtu" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lft"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="openMenu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="openAboutUs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Events"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="openEvents" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="openContactUs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Team"
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

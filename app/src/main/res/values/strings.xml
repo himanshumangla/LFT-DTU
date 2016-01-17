@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LFT - DTU</string>
+    <string name="about_us">Leaders for Tomorrow(LFT) is a not-for-profit youth movement established in india
+        whose members mainly consist of college students between the ages 18 and 25.\n\n The DTU chapter of LFT was
+        established in August 2015, with a mission to provide a platform where the youth can express their views,
+        generate ideas, meet great leaders, learn new skills, take up social action and ignite the leader in them.\n\n
+        We beleive that together we can usher in a great future for our nation if we work hand in hand to bring real social change.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="events">"Igniting Young Minds" is a project undertaken to motivate college going youth to give 1 hour of their week to under privileged students at government schools and slum kids.\nWeekly programmes include social activities like cleanliness drives, adopt a plant, shramdaan, visit for passion and cultural competitions. \nFor more details, visit <a href="http://www.lft.org.in">www.lft.org.in</a></string>
+    <string name="fblink">You can message, follow and like us at <a href="http://www.facebook.com/lftdtu">www.facebook.com/lftdtu</a> or email us:</string>
+    <string name="team">LFT-DTU is a team of 139 members, determined to learn and spread an aptitude for Leadership. The turnout increases with every event we carry out! \nThough we all are \"one among many\", but to organise and manage all events, we have a dedicated team as follows:</string>
+    <string name="associates">Shweta Chaudhary\n2nd year,ENE\nShivani Sazawal\n2nd year,COE\nAashna Srivastava\n1st year,PCT\nAnanyah Dhawan\n1st year,ME\nArjun Singh\n1st year,ME\nMahitha\n1st year,ME\nShivam Tandon\n1st year,MCE\nTwinkle Singh\n1st year,PCT</string>
+</resources>
