@@ -1,6 +1,7 @@
 package com.himanshu.lft_dtu;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,8 +25,25 @@ public class AboutUs extends ActionBarActivity {
 
     public boolean onOptionsItemSelected(MenuItem item){
         int id= item.getItemId();
+        switch (id){
+            case R.id.item1:
 
+                break;
+            case R.id.item2:
+
+                break;
+            case R.id.item3:
+
+                break;
+            case R.id.Exit:
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+                break;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
 }

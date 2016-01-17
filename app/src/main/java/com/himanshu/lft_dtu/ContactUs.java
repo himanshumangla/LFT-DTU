@@ -3,6 +3,8 @@ package com.himanshu.lft_dtu;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -10,7 +12,7 @@ import android.widget.EditText;
 /**
  * Created by Himanshu on 12/25/2015.
  */
-public class ContactUs extends Activity implements View.OnClickListener{
+public class ContactUs extends ActionBarActivity implements View.OnClickListener{
     EditText email, subject, text;
     Button send;
     String semail, ssubject, stext;
@@ -47,8 +49,32 @@ public class ContactUs extends Activity implements View.OnClickListener{
         stext = text.getText().toString();
     }
 
-    protected void onPause(){
-        super.onPause();
-        finish();
+    @Override
+    public boolean onCreateOptionsMenu(android.view.Menu menu){
+        getMenuInflater().inflate(R.menu.options,menu);
+        return true;
     }
+
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id= item.getItemId();
+        switch (id){
+            case R.id.item1:
+
+                break;
+            case R.id.item2:
+
+                break;
+            case R.id.item3:
+
+                break;
+            case R.id.Exit:
+                Intent intent = new Intent(Intent.ACTION_MAIN);
+                intent.addCategory(Intent.CATEGORY_HOME);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
 }
