@@ -4,23 +4,61 @@
     android:padding="25dp"
     android:background="@drawable/lft1"
     android:orientation="vertical">
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:textSize="25dp"
-        android:text="Events"
-        android:id="@+id/tvEvents"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:text="Events"/>
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <TabHost
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="23dp"
-        android:autoLink="web"
-        android:text="@string/events"
-        />
-    </LinearLayout>
+        android:id="@+id/tabHost">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iym"/>
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sdp"/>
+                    </LinearLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
 
 

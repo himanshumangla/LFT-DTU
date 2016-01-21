@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
+import android.widget.TabHost;
 
 /**
  * Created by Himanshu on 12/18/2015.
@@ -13,6 +14,17 @@ public class Events extends ActionBarActivity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.events);
+        TabHost th = (TabHost) findViewById(R.id.tabHost);
+        th.setup();
+        TabHost.TabSpec iym = th.newTabSpec("tag1");
+        iym.setContent(R.id.tab1);
+        iym.setIndicator("IYM");
+        th.addTab(iym);
+
+        iym = th.newTabSpec("tag2");
+        iym.setContent(R.id.tab2);
+        iym.setIndicator("SDP");
+        th.addTab(iym);
 
     }
     @Override

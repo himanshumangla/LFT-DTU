@@ -46,32 +46,62 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".SDP"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Dialog">
-            <intent-filter>
-                <action android:name="openSdp" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <activity
-            android:name=".IYM"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.Dialog">
-            <intent-filter>
-                <action android:name="openIym" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
 
         <activity
             android:name=".ContactUs"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="openContactUs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".adar"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="openadar" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".adapt"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="openadapt" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+        android:name=".cleanathon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Dialog">
+        <intent-filter>
+            <action android:name="opencleanathon" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity
+            android:name=".collectiondrives"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="opencollectiondrives" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".shramdan"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog">
+            <intent-filter>
+                <action android:name="openshramdan" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

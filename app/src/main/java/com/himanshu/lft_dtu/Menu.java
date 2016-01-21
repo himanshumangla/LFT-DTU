@@ -15,7 +15,7 @@ import android.widget.ListView;
  */
 public class Menu extends ListActivity {
 
-    String [] classes= {"AboutUs", "Team" , "Events", "ContactUs","SDP","IYM"};
+    String [] classes= {"AboutUs", "Team" , "Events", "ContactUs"};
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
