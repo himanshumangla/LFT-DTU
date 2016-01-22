@@ -18,4 +18,14 @@
     <string name="cleanathon">Its said that cleanliness is next to godliness and to reinforce this age old adage this campaign has been launched. It is a symbolic effort aimed at reviving the consciousness towards the environment by solving the problem of littering and a myriad of its consequences</string>
     <string name="adapt">Adopt a plant is the green initiative of LFT - DTU aimed at making the youth realize the importance of our mother earth and curb global warming. This program will help the students to develop an ownership about our environment</string>
     <string name="adar">Owing to the changing social scenario and media influence, a large section of the youth are being drawn into substance abuse and ragging just to appear cool. Thus to make a sustained impact on this situation through ADAR we would encourage them to have discussions on issues like alcoholism, smoking , drug abuse and ragging so that they can understand the side effects of these menaces and avoid them</string>
+    <string name="title_activity_first_page">FirstPage</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
 </resources>
