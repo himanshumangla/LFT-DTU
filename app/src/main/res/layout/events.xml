@@ -26,34 +26,45 @@
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"></TabWidget>
+                android:layout_height="wrap_content"
+                ></TabWidget>
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
 
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
                 <LinearLayout
-                    android:id="@+id/tab1"
+                    android:id="@+id/IYM"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:orientation="vertical">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="17dp"
                         android:text="@string/iym"/>
                     </LinearLayout>
-
+                </ScrollView>
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
                 <LinearLayout
-                    android:id="@+id/tab2"
+                    android:id="@+id/SDP"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
+
                     android:orientation="vertical">
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textSize="17dp"
                         android:text="@string/sdp"/>
                     </LinearLayout>
+                </ScrollView>
 
 
             </FrameLayout>

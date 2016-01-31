@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.himanshu.lft_dtu" >
+    package="com.himanshu.lft_dtu"
+   >
 
     <application
         android:allowBackup="true"
@@ -9,6 +10,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".Splash"
+            android:noHistory="true"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +20,10 @@
         </activity>
         <activity
             android:name=".Menu"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            >
             <intent-filter>
                 <action android:name="openMenu" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -43,6 +45,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".AboutDTU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="openAboutDTU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".ContactUs"
             android:label="@string/app_name" >
@@ -75,6 +86,7 @@
         <activity
             android:name=".cleanathon"
             android:label="@string/app_name"
+
             android:theme="@android:style/Theme.Dialog" >
             <intent-filter>
                 <action android:name="opencleanathon" />
@@ -102,6 +114,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".customTeam"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".Campaigns"
+            android:label="@string/app_name" >
+        </activity>
+
         <activity
             android:name=".Team"
             android:label="@string/app_name" >
@@ -114,6 +138,13 @@
             android:name=".FirstPage"
             android:label="@string/title_activity_first_page" >
         </activity>
+
+
+        <activity
+            android:name=".Register"
+            android:label="@string/app_name" >
+        </activity>
+
     </application>
 
 </manifest>

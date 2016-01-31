@@ -11,8 +11,8 @@
     <string name="fblink">You can message, follow and like us at <a href="http://www.facebook.com/lftdtu">www.facebook.com/lftdtu</a> or email us:</string>
     <string name="team">LFT-DTU is a team of 139 members, determined to learn and spread an aptitude for Leadership. The turnout increases with every event we carry out! \nThough we all are \"one among many\", but to organise and manage all events, we have a dedicated team as follows:</string>
     <string name="associates">Shweta Chaudhary\n2nd year,ENE\n\nShivani Sazawal\n2nd year,COE\n\nAashna Srivastava\n1st year,PCT\n\nAnanyah Dhawan\n1st year,ME\n\nArjun Singh\n1st year,ME\n\nMahitha\n1st year,ME\n\nShivam Tandon\n1st year,MCE\n\nTwinkle Singh\n1st year,SOE</string>
-    <string name="sdp">We, at LFT-DTU, also focus on developing the all round personality of all our members. Along with on field experience, we also organise regular workshops and interaction sessions. These skill development sessions include training in leadership skills, communication skills, public speaking, team effort and planning.</string>
-    <string name="iym">This life skill program of LFT is soon going to be launched in our college. We plan to send 10 of our volunteers, every week, to nearby slums and old age homes. Our volunteers would enlighten the children aged 6-12 belonging to lower socio- economic strata on various topics like sanitation, moral sciences, GK, englishspeaking skills etc. We will also be providing them with some basic technical knowledge related to computers. This will help our volunteers to strengthen their skills and also awaken their social consciousness. Thus with the help of these small steps we can contribute to the growth of our nation.</string>
+    <string name="sdp">We, at LFT-DTU, also focus on developing the all round personality of all our members.\n\nAlong with on field experience, we also organise regular workshops and interaction sessions. These skill development sessions include training in leadership skills, communication skills, public speaking, team effort and planning.</string>
+    <string name="iym">This life skill program of LFT is soon going to be launched in `our college.\n\nWe plan to send 10 of our volunteers, every week, to nearby slums and old age homes. Our volunteers would enlighten the children aged 6-12 belonging to lower socio- economic strata on various topics like sanitation, moral sciences, GK, english speaking skills etc.\n\nWe will also be providing them with some basic technical knowledge related to computers.\n\nThis will help our volunteers to strengthen their skills and also awaken their social consciousness. Thus with the help of these small steps we can contribute to the growth of our nation.</string>
     <string name="shramdan">It means social service in the society and community for its development. Its a combination of words shram-labour and daan-contribution. It is basically the non- monetary contribution to the society</string>
     <string name="collectiondrives">We conduct collection drives to bridge the gaps between haves and the have nots. One can collect books, clothes etc and provide them to the underprivileged.</string>
     <string name="cleanathon">Its said that cleanliness is next to godliness and to reinforce this age old adage this campaign has been launched. It is a symbolic effort aimed at reviving the consciousness towards the environment by solving the problem of littering and a myriad of its consequences</string>
@@ -28,4 +28,38 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_example">Example action</string>
+
+    <string name="himanshu">Himanshu Mangla\nFounder &amp; Technical Head\n 2nd year, COE\n</string>
+    <string name="sonal">Sonal Chopra\nCollege Head \n 2nd year, IT </string>
+    <string name="akshat">Akshat Jain\n 2nd year, PCT </string>
+    <string name="aashima">Aashima Garg\n Content Writer \n 2nd year, PCT</string>
+    <string name="shikha">Shikha Asrani\n 2nd year, IT</string>
+    <string name="shweta">Shweta Garg\n 2nd year, COE</string>
+    <string name="pratik">Pratik Singh\n 2nd year, IT</string>
+    <string name="shivani">Shivani Aggarwal\n 2nd year, COE</string>
+    <string name="sarthak">Sarthak Rastogi\n 2nd year, IT</string>
+
+
+
+    <string name="about_dtu"><![CDATA[\ HISTORY
+\n"75 years of tradition of excellence in engineering and technology, research and innovations" Delhi College of Engineering, ( initially estabilished as - Delhi Polytechnic) came into existence in 1941. \n\nThe institution was initially set up at the historic Kashmere Gate campus under the Wood and Abott Committee of 1938. In 1952 the college was affiliated with the University of Delhi and started degree level programs. \n\nThe dept.of Architecture later became the School of Planning and Architecture. The dept.of Arts and Sculpture became College of Arts and the dept.s of Chemical and Textlie technology were shifted out en-block to mark the beginning of the IIT Delhi at its campus in Hauz Khas. The dept.of Commerce was later abolished and Faculty of Management Studies was estabilished. \n\nThus DCE is the mother institution of IIT-D, SPA, College of Arts and FMS. Till 1962, the college was under the Ministry of Education. In 1963, its administration was handed over to the Department of Technical Education and Training, Govt.of NCT of Delhi. From July 2009, DCE became Delhi Technological University (DTU) vide Delhi Act 6 of 2009.
+\n\nThe erstwhile DCE has functioned from its historic Kashmere Gate campus for almost 55 years and has shifted to its lush green sprawling campus of 164 acres at Bawana Road, adjoining Rohini Sector 17, Delhi -42
+\n\nVISION
+\nDTU to be a leading World Class Technology University playing its role as a key node in National and Global Knowledge Network thus empowering India with Wings of Knowledge and Power of Innovations
+\nThe vision of DTU is :
+\n1. Completely Autonomous
+\n2. A pioneering world class university
+\n3. A university creating synergy between education and research .
+\n4. A change agent to align India s education to global standards
+\n5. Industrially relevant and mission oriented R&D.
+\n6. Impacting the community with innovative solutions to pressing problem.
+\n\nMISSION
+\nThe mission of DTU is as follows:
+\n1. Be a world class centre for education, research and innovation.
+\n2. Promote the engineering spirit of product development .
+\n3. Emerge as a centre for attracting the best minds from academia and industry.
+\n4. Produce well rounded, socially responsible, up to date , scientifically tempered, design oriented engineers.
+\n5. Be able to address the impact of globalization on education.
+\n6. Meet the need for engineers at PG, UG and Doctoral levels.
+\n7. Operate DTU as a world class Knowledge Enterprise  to foster teacher and student relations]]></string>
 </resources>

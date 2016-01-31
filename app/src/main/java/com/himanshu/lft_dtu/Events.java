@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 /**
  * Created by Himanshu on 12/18/2015.
@@ -17,12 +18,12 @@ public class Events extends ActionBarActivity {
         TabHost th = (TabHost) findViewById(R.id.tabHost);
         th.setup();
         TabHost.TabSpec iym = th.newTabSpec("tag1");
-        iym.setContent(R.id.tab1);
+        iym.setContent(R.id.IYM);
         iym.setIndicator("IYM");
         th.addTab(iym);
 
         iym = th.newTabSpec("tag2");
-        iym.setContent(R.id.tab2);
+        iym.setContent(R.id.SDP);
         iym.setIndicator("SDP");
         th.addTab(iym);
 
@@ -50,6 +51,7 @@ public class Events extends ActionBarActivity {
                 intent.addCategory(Intent.CATEGORY_HOME);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
+                Toast.makeText(this, "Exiting now. Thank You!", Toast.LENGTH_SHORT).show();
                 break;
         }
         return super.onOptionsItemSelected(item);

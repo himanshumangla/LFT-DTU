@@ -8,7 +8,7 @@
 
         android:textSize="25dp"
         android:layout_gravity="center"
-        android:text="SHRAMDAN"/>
+        android:text="SHRAMDAAN"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
