@@ -2,6 +2,7 @@ package com.himanshu.lft_dtu;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.EditText;
 
 /**
  * Created by Himanshu on 1/31/2016.
@@ -11,4 +12,9 @@ public class Register extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
     }
+
+    EditText name,password;
+
+
+
 }
