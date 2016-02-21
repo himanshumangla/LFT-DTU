@@ -17,7 +17,7 @@ import android.widget.Toast;
  */
 public class Menu extends ListActivity  {
 
-    String [] classes= {"About DTU","About LFT", "Team" , "Events", "Campaigns", "Contact Us","Custom Team","Register"};
+    String [] classes= {"About DTU","About LFT", "Team" , "Events", "Campaigns", "Contact Us","Custom Team","Register","FirstPage"};
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -27,7 +27,7 @@ public class Menu extends ListActivity  {
     }
     protected void onListItemClick(ListView l , View v, int position, long id){
         super.onListItemClick(l, v, position, id);
-        String [] classes1= {"AboutDTU","AboutUs", "Team" , "Events", "Campaigns", "ContactUs","customTeam", "Register"};
+        String [] classes1= {"AboutDTU","AboutUs", "Team" , "Events", "Campaigns", "ContactUs","customTeam", "Register","FirstPage"};
 
         String currentClassName = classes1[position];
         try {

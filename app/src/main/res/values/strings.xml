@@ -20,9 +20,13 @@
     <string name="adar">Owing to the changing social scenario and media influence, a large section of the youth are being drawn into substance abuse and ragging just to appear cool. Thus to make a sustained impact on this situation through ADAR we would encourage them to have discussions on issues like alcoholism, smoking , drug abuse and ragging so that they can understand the side effects of these menaces and avoid them</string>
     <string name="title_activity_first_page">FirstPage</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">About DTU</string>
+    <string name="title_section2">About LFT</string>
+    <string name="title_section3">Team</string>
+    <string name="title_section4">Events</string>
+    <string name="title_section5">Campaigns</string>
+    <string name="title_section6">Contact Us</string>
+    <string name="title_section7">Register</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

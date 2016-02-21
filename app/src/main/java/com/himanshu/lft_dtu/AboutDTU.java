@@ -3,6 +3,7 @@ package com.himanshu.lft_dtu;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.view.*;
 import android.view.Menu;
@@ -11,7 +12,7 @@ import android.widget.Toast;
 /**
  * Created by Himanshu on 1/25/2016.
  */
-public class AboutDTU extends ActionBarActivity {
+public class AboutDTU extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
